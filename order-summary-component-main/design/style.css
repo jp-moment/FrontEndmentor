@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap);
+body {
+  font-size: 16px;
+  position: relative;
+}
+body .card {
+  max-width: 450px;
+  text-align: center;
+  margin: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+body .card .card-content {
+  padding: 4rem;
+  padding-top: 0.75rem;
+}
+body .card .card-content .order {
+  display: block;
+  max-width: 80%;
+  margin: auto;
+}
+body .card .card-content .plan_wrapper {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  padding: 1rem 0.25rem;
+  background-color: hsl(225, 100%, 98%);
+  margin-bottom: 2rem;
+  border-radius: 10px;
+}
+body .card .card-content .plan_wrapper .icon {
+  justify-self: center;
+}
+body .card .card-content .plan_wrapper h2 {
+  margin: 0px;
+}
+body .card .card-content .plan_wrapper p {
+  margin: 0px;
+}
+body .card .card-content .plan_wrapper .plan-text {
+  text-align: left;
+}
+body .card button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background-color: hsl(245, 75%, 52%);
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+body .card button a {
+  color: white;
+  text-decoration: none;
+}
+body .card .cancel {
+  display: block;
+}/*# sourceMappingURL=style.css.map */
