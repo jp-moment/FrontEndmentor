@@ -19,13 +19,14 @@ body .card .img_wrapper img {
   border-radius: 20px 20px 0px 0px;
 }
 body .card .card-content {
-  padding: 4rem;
+  padding: 3rem;
   padding-top: 0.75rem;
 }
 body .card .card-content .order {
   display: block;
   max-width: 80%;
   margin: auto;
+  margin-bottom: 2rem;
 }
 body .card .card-content .plan_wrapper {
   display: grid;
