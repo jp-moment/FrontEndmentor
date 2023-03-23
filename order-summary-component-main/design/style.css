@@ -12,6 +12,10 @@ body .card {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin-top: 175px;
   background-color: white;
+  border-radius: 20px;
+}
+body .card .img_wrapper img {
+  border-radius: 20px 20px 0px 0px;
 }
 body .card .card-content {
   padding: 4rem;
