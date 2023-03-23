@@ -65,4 +65,13 @@ body .card button a {
 }
 body .card .cancel {
   display: block;
+}
+body .card .cancel a,
+body .card .cancel :active {
+  text-decoration: none;
+  font-weight: bold;
+  color: hsl(224, 23%, 55%);
+}
+body .card .cancel :hover {
+  color: black;
 }/*# sourceMappingURL=style.css.map */

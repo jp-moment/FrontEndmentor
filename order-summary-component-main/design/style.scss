@@ -92,6 +92,15 @@ body {
 
             .cancel{
                 display: block;
+                a,
+                :active{
+                    text-decoration: none;
+                    font-weight: bold;
+                    color: $desaturatedblue;
+                }
+                :hover{
+                    color:black
+                }
             }
             .attribution{
         
