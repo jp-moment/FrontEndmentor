@@ -11,6 +11,7 @@ body {
     background-image: url(/order-summary-component-main/images/pattern-background-desktop.svg) ;
     background-repeat: no-repeat;
     background-color: $paleblue;
+    
 
     
 
@@ -22,13 +23,22 @@ body {
             box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
             margin-top: 175px;
             background-color: white;
+            border-radius: 20px;
+
+            .img_wrapper img{
+                border-radius: 20px 20px 0px 0px;
+               
+            }
 
 
                    
             .card-content{
                 padding: 4rem;
                 padding-top: 0.75rem;
-            
+
+
+
+               
 
                 .order{
                     display: block;
