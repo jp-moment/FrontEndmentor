@@ -7,12 +7,11 @@ $darkblue: hsl(223, 47%, 23%);
 @import url(https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap);
 
 body {
+    font-family: 'Red Hat Display', sans-serif;;
     font-size: 16px;
     background-image: url(/order-summary-component-main/images/pattern-background-desktop.svg) ;
     background-repeat: no-repeat;
     background-color: $paleblue;
-    
-
     
 
         .card{
@@ -36,9 +35,6 @@ body {
                 padding: 4rem;
                 padding-top: 0.75rem;
 
-
-
-               
 
                 .order{
                     display: block;
